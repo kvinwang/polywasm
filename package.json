@@ -1,13 +1,13 @@
 {
-  "name": "polywasm",
+  "name": "@phala/polywasm",
   "version": "0.1.4",
   "type": "module",
   "main": "./index.js",
   "license": "MIT",
-  "homepage": "https://github.com/evanw/polywasm",
+  "homepage": "https://github.com/kvinwang/polywasm",
   "repository": {
     "type": "git",
-    "url": "https://github.com/evanw/polywasm.git"
+    "url": "https://github.com/kvinwang/polywasm"
   },
   "scripts": {
     "build": "esbuild --bundle --target=es2020 src/index.ts \"--mangle-props=_$\" --minify --outfile=index.min.js --format=esm && esbuild --bundle --target=es2020 src/index.ts --outfile=index.js \"--mangle-props=_$\" --format=esm",
